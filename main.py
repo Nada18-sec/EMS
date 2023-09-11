@@ -8,7 +8,7 @@ root = Tk()
 root.title("Employee Management System")
 root.geometry("1920x1080+0+0")
 root.config(bg="#2c3e50")
-root.state("normal")
+root.state("normal") #Edited from zoom to normal to avoid tk error
 
 name = StringVar()
 age = StringVar()
